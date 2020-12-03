@@ -32,22 +32,6 @@
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 
-	<div id='myDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
-</div>
-<script>
-var x = [];
-for (var i = 0; i < 500; i ++) {
-	x[i] = Math.random();
-}
-
-var trace = {
-    x: x,
-    type: 'histogram',
-  };
-var data = [trace];
-Plotly.newPlot('myDiv', data);
-</script>
-
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
